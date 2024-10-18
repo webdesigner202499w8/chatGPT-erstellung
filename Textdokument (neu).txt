@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Persönliche Webseite</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        section {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .portfolio {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .portfolio-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Meine Webseite</h1>
+    </header>
+
+    <section>
+        <h2>Über Mich</h2>
+        <p>Willkommen auf meiner persönlichen Webseite! In meiner Freizeit beschäftige ich mich gerne mit verschiedenen Hobbys wie Sport, Lesen und Reisen. Hier präsentiere ich auch mein Portfolio zu ETFs, die mich besonders interessieren.</p>
+    </section>
+
+    <section>
+        <h2>Portfolio - ETFs</h2>
+        <div class="portfolio">
+            <div class="portfolio-item">
+                <h3>ETF A</h3>
+                <p>Beschreibung von ETF A: Warum es interessant ist und welche Märkte oder Sektoren es abdeckt.</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>ETF B</h3>
+                <p>Beschreibung von ETF B: Eine Analyse der Performance und der enthaltenen Unternehmen.</p>
+            </div>
+            <!-- Weitere ETF-Items können hier hinzugefügt werden -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Meine Webseite | Alle Rechte vorbehalten</p>
+    </footer>
+
+</body>
+</html>
